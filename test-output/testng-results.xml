@@ -2,43 +2,43 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="100841" started-at="2018-04-04T07:13:51Z" finished-at="2018-04-04T07:15:32Z">
+  <suite name="Default suite" duration-ms="105060" started-at="2018-04-04T07:56:00Z" finished-at="2018-04-04T07:57:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="100841" started-at="2018-04-04T07:13:51Z" finished-at="2018-04-04T07:15:32Z">
+    <test name="Default test" duration-ms="105060" started-at="2018-04-04T07:56:00Z" finished-at="2018-04-04T07:57:45Z">
       <class name="com.unityworks.testcases.ReportTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="initialize" is-config="true" duration-ms="4761" started-at="2018-04-04T12:43:47Z" finished-at="2018-04-04T12:43:51Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="initialize" is-config="true" duration-ms="3487" started-at="2018-04-04T13:25:56Z" finished-at="2018-04-04T13:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="setExtent" is-config="true" duration-ms="48" started-at="2018-04-04T12:43:51Z" finished-at="2018-04-04T12:43:51Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="setExtent" is-config="true" duration-ms="44" started-at="2018-04-04T13:26:00Z" finished-at="2018-04-04T13:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="setup" is-config="true" duration-ms="94" started-at="2018-04-04T12:43:51Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-04T12:43:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="setup" is-config="true" duration-ms="119" started-at="2018-04-04T13:26:00Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-04T13:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="epsilon_BMWAirBagRecall()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="epsilon_BMWAirBagRecall" duration-ms="100430" started-at="2018-04-04T12:43:52Z" finished-at="2018-04-04T12:45:32Z">
+        <test-method status="PASS" signature="epsilon_BMWAirBagRecall()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="epsilon_BMWAirBagRecall" duration-ms="104725" started-at="2018-04-04T13:26:00Z" finished-at="2018-04-04T13:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- epsilon_BMWAirBagRecall -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-04T12:45:32Z" finished-at="2018-04-04T12:45:32Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-04T13:27:45Z" finished-at="2018-04-04T13:27:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=epsilon_BMWAirBagRecall status=SUCCESS method=ReportTest.epsilon_BMWAirBagRecall()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8] output={null}]]]>
+                <![CDATA[[TestResult name=epsilon_BMWAirBagRecall status=SUCCESS method=ReportTest.epsilon_BMWAirBagRecall()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="endReport" is-config="true" duration-ms="262" started-at="2018-04-04T12:45:32Z" finished-at="2018-04-04T12:45:32Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="endReport" is-config="true" duration-ms="166" started-at="2018-04-04T13:27:45Z" finished-at="2018-04-04T13:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="SendEmail" is-config="true" duration-ms="0" started-at="2018-04-04T12:45:32Z" finished-at="2018-04-04T12:45:32Z">
+        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.ReportTest@247d8ae]" name="SendEmail" is-config="true" duration-ms="0" started-at="2018-04-04T13:27:45Z" finished-at="2018-04-04T13:27:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendEmail -->
