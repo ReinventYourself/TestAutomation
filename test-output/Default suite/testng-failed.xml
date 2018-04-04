@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.unityworks.testcases.AffinitiveTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="SendEmail"/>
+          <include name="setup"/>
+          <include name="affinitive_BMWAffinitiveTire"/>
+        </methods>
+      </class> <!-- com.unityworks.testcases.AffinitiveTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

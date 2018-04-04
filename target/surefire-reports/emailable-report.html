@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">2,396.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">com.unityworks.testcases.ReportTest</td><td><a href="#m1"><b>epsilon_BusinessElite</b>  </a></td><td class="numi">1</td><td>1522761963525</td><td class="numi">643553</td></tr><tr class="failedodd"><td><a href="#m2"><b>epsilon_CSSR_CarCare</b>  </a></td><td class="numi">1</td><td>1522762779202</td><td class="numi">643427</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.unityworks.testcases.AffinitiveTest</td><td><a href="#m3"><b>affinitive_BMWAffinitiveTire</b>  </a></td><td class="numi">1</td><td>1522761761857</td><td class="numi">16994</td></tr>
+<tr class="passedeven"><td rowspan="13">com.unityworks.testcases.ReportTest</td><td><a href="#m4"><b>epsilon_2014SalesTouchesRound1</b>  </a></td><td class="numi">1</td><td>1522761778853</td><td class="numi">20707</td></tr><tr class="passedeven"><td><a href="#m5"><b>epsilon_BMWAirBagRecall</b>  </a></td><td class="numi">1</td><td>1522761799561</td><td class="numi">85760</td></tr><tr class="passedeven"><td><a href="#m6"><b>epsilon_BMWT2</b>  </a></td><td class="numi">1</td><td>1522761885322</td><td class="numi">78203</td></tr><tr class="passedeven"><td><a href="#m7"><b>epsilon_CSSRLease</b>  </a></td><td class="numi">1</td><td>1522762607697</td><td class="numi">79504</td></tr><tr class="passedeven"><td><a href="#m8"><b>epsilon_CSSROLA</b>  </a></td><td class="numi">1</td><td>1522762687201</td><td class="numi">92001</td></tr><tr class="passedeven"><td><a href="#m9"><b>epsilon_CSSR_EVO_OLA_Combined</b>  </a></td><td class="numi">1</td><td>1522763423237</td><td class="numi">195456</td></tr><tr class="passedeven"><td><a href="#m10"><b>epsilon_Cherokee</b>  </a></td><td class="numi">1</td><td>1522763618693</td><td class="numi">68960</td></tr><tr class="passedeven"><td><a href="#m11"><b>epsilon_FordService</b>  </a></td><td class="numi">1</td><td>1522763687654</td><td class="numi">69066</td></tr><tr class="passedeven"><td><a href="#m12"><b>epsilon_FordTruck</b>  </a></td><td class="numi">1</td><td>1522763756721</td><td class="numi">68634</td></tr><tr class="passedeven"><td><a href="#m13"><b>epsilon_HondaLcc</b>  </a></td><td class="numi">1</td><td>1522763825355</td><td class="numi">75110</td></tr><tr class="passedeven"><td><a href="#m14"><b>epsilon_HondaSPS</b>  </a></td><td class="numi">1</td><td>1522763900465</td><td class="numi">92109</td></tr><tr class="passedeven"><td><a href="#m15"><b>epsilon_HyundaiEM</b>  </a></td><td class="numi">1</td><td>1522763992574</td><td class="numi">92340</td></tr><tr class="passedeven"><td><a href="#m16"><b>epsilon_InterceptLMA</b>  </a></td><td class="numi">1</td><td>1522764084915</td><td class="numi">73311</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">com.unityworks.testcases.ReportTest:epsilon_BusinessElite</h2>
+<div style="padding-left:3em">
+<p>Timed out after 600 seconds waiting for presence of element located by: By.xpath: .//*[@id=&apos;first_report&apos;]/tbody/tr[last()]/td[3]/b
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;SEZ-10&apos;, ip: &apos;10.191.90.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e), userDataDir=C:\Users\GAURAV~1.SHA\AppData\Local\Temp\scoped_dir8360_4864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9d2326c23e8452510e5f1d2f8f392bf3</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+<br/>at com.unityworks.testcases.ReportTest.epsilon_BusinessElite(ReportTest.java:184)
+<br/>35 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;first_report&apos;]/tbody/tr[last()]/td[3]/b&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;SEZ-10&apos;, ip: &apos;10.191.90.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e), userDataDir=C:\Users\GAURAV~1.SHA\AppData\Local\Temp\scoped_dir8360_4864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9d2326c23e8452510e5f1d2f8f392bf3
+*** Element info: {Using=xpath, value=.//*[@id=&apos;first_report&apos;]/tbody/tr[last()]/td[3]/b}</p>
+sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+<br/>at com.unityworks.testcases.ReportTest.epsilon_BusinessElite(ReportTest.java:184)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.unityworks.testcases.ReportTest:epsilon_CSSR_CarCare</h2>
+<div style="padding-left:3em">
+<p>Timed out after 600 seconds waiting for presence of element located by: By.xpath: .//*[@id=&apos;first_report&apos;]/tbody/tr[last()]/td[5]/b
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;SEZ-10&apos;, ip: &apos;10.191.90.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e), userDataDir=C:\Users\GAURAV~1.SHA\AppData\Local\Temp\scoped_dir8360_4864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9d2326c23e8452510e5f1d2f8f392bf3</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+<br/>at com.unityworks.testcases.ReportTest.epsilon_CSSR_CarCare(ReportTest.java:243)
+<br/>35 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;first_report&apos;]/tbody/tr[last()]/td[5]/b&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;SEZ-10&apos;, ip: &apos;10.191.90.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e), userDataDir=C:\Users\GAURAV~1.SHA\AppData\Local\Temp\scoped_dir8360_4864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9d2326c23e8452510e5f1d2f8f392bf3
+*** Element info: {Using=xpath, value=.//*[@id=&apos;first_report&apos;]/tbody/tr[last()]/td[5]/b}</p>
+sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+<br/>at com.unityworks.testcases.ReportTest.epsilon_CSSR_CarCare(ReportTest.java:243)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.unityworks.testcases.ReportTest:epsilon_BMWAirBagRecall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.unityworks.testcases.AffinitiveTest:affinitive_BMWAffinitiveTire</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.unityworks.testcases.ReportTest:epsilon_BMWT2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.unityworks.testcases.ReportTest:epsilon_2014SalesTouchesRound1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.unityworks.testcases.ReportTest:epsilon_Cherokee</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.unityworks.testcases.ReportTest:epsilon_CSSR_EVO_OLA_Combined</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.unityworks.testcases.ReportTest:epsilon_FordTruck</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.unityworks.testcases.ReportTest:epsilon_HyundaiEM</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.unityworks.testcases.ReportTest:epsilon_FordService</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.unityworks.testcases.ReportTest:epsilon_HondaLcc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.unityworks.testcases.ReportTest:epsilon_InterceptLMA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.unityworks.testcases.ReportTest:epsilon_CSSROLA</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.unityworks.testcases.ReportTest:epsilon_HondaSPS</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.unityworks.testcases.ReportTest:epsilon_CSSRLease</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
