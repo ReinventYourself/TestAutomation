@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.unityworks.testcases.AffinitiveTest">
+      <class name="com.unityworks.testcases.ReportTest">
         <methods>
+          <include name="initialize"/>
           <include name="setExtent"/>
           <include name="tearDown"/>
-          <include name="endReport"/>
-          <include name="SendEmail"/>
           <include name="setup"/>
-          <include name="affinitive_BMWAffinitiveTire"/>
+          <include name="epsilon_BMWAirBagRecall"/>
         </methods>
-      </class> <!-- com.unityworks.testcases.AffinitiveTest -->
+      </class> <!-- com.unityworks.testcases.ReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

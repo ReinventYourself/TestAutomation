@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="UnityworksReportTest" duration-ms="18380" started-at="2018-04-03T13:18:45Z" finished-at="2018-04-03T13:19:03Z">
+  <suite name="Default suite" duration-ms="100841" started-at="2018-04-04T07:13:51Z" finished-at="2018-04-04T07:15:32Z">
     <groups>
     </groups>
-    <test name="Unityworks" duration-ms="18380" started-at="2018-04-03T13:18:45Z" finished-at="2018-04-03T13:19:03Z">
-      <class name="com.unityworks.testcases.AffinitiveTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="initialize" is-config="true" duration-ms="3467" started-at="2018-04-03T18:48:41Z" finished-at="2018-04-03T18:48:45Z">
+    <test name="Default test" duration-ms="100841" started-at="2018-04-04T07:13:51Z" finished-at="2018-04-04T07:15:32Z">
+      <class name="com.unityworks.testcases.ReportTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="initialize" is-config="true" duration-ms="4761" started-at="2018-04-04T12:43:47Z" finished-at="2018-04-04T12:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="setExtent" is-config="true" duration-ms="51" started-at="2018-04-03T18:48:45Z" finished-at="2018-04-03T18:48:45Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="setExtent" is-config="true" duration-ms="48" started-at="2018-04-04T12:43:51Z" finished-at="2018-04-04T12:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="setup" is-config="true" duration-ms="94" started-at="2018-04-03T18:48:45Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-03T18:48:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="setup" is-config="true" duration-ms="94" started-at="2018-04-04T12:43:51Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-04T12:43:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="affinitive_BMWAffinitiveTire()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="affinitive_BMWAffinitiveTire" duration-ms="18020" started-at="2018-04-03T18:48:45Z" finished-at="2018-04-03T18:49:03Z">
+        <test-method status="PASS" signature="epsilon_BMWAirBagRecall()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="epsilon_BMWAirBagRecall" duration-ms="100430" started-at="2018-04-04T12:43:52Z" finished-at="2018-04-04T12:45:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- affinitive_BMWAffinitiveTire -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-03T18:49:03Z" finished-at="2018-04-03T18:49:03Z">
+        </test-method> <!-- epsilon_BMWAirBagRecall -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-04T12:45:32Z" finished-at="2018-04-04T12:45:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=affinitive_BMWAffinitiveTire status=SUCCESS method=AffinitiveTest.affinitive_BMWAffinitiveTire()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15] output={null}]]]>
+                <![CDATA[[TestResult name=epsilon_BMWAirBagRecall status=SUCCESS method=ReportTest.epsilon_BMWAirBagRecall()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="endReport" is-config="true" duration-ms="207" started-at="2018-04-03T18:49:03Z" finished-at="2018-04-03T18:49:03Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="endReport" is-config="true" duration-ms="262" started-at="2018-04-04T12:45:32Z" finished-at="2018-04-04T12:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@27ff5d15]" name="SendEmail" is-config="true" duration-ms="0" started-at="2018-04-03T18:49:03Z" finished-at="2018-04-03T18:49:03Z">
+        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.ReportTest@73ee04c8]" name="SendEmail" is-config="true" duration-ms="0" started-at="2018-04-04T12:45:32Z" finished-at="2018-04-04T12:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendEmail -->
-      </class> <!-- com.unityworks.testcases.AffinitiveTest -->
-    </test> <!-- Unityworks -->
-  </suite> <!-- UnityworksReportTest -->
+      </class> <!-- com.unityworks.testcases.ReportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

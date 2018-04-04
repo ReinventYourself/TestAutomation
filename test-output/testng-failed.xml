@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [UnityworksReportTest]">
-  <test name="Unityworks(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.unityworks.testcases.ReportTest">
         <methods>
           <include name="initialize"/>
           <include name="setExtent"/>
-          <include name="epsilon_BusinessElite"/>
-          <include name="epsilon_BMWT2"/>
-          <include name="epsilon_CSSR_EVO_OLA_Combined"/>
-          <include name="epsilon_HondaSPS"/>
-          <include name="epsilon_FordTruck"/>
-          <include name="epsilon_Cherokee"/>
-          <include name="epsilon_CSSR_CarCare"/>
-          <include name="epsilon_FordService"/>
-          <include name="epsilon_2014SalesTouchesRound1"/>
-          <include name="epsilon_HyundaiEM"/>
-          <include name="epsilon_CSSROLA"/>
-          <include name="setup"/>
-          <include name="epsilon_CSSRLease"/>
-          <include name="epsilon_HondaLcc"/>
-          <include name="epsilon_BMWAirBagRecall"/>
-          <include name="epsilon_InterceptLMA"/>
-        </methods>
-      </class> <!-- com.unityworks.testcases.ReportTest -->
-      <class name="com.unityworks.testcases.AffinitiveTest">
-        <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="affinitive_BMWAffinitiveTire"/>
+          <include name="epsilon_BMWAirBagRecall"/>
         </methods>
-      </class> <!-- com.unityworks.testcases.AffinitiveTest -->
+      </class> <!-- com.unityworks.testcases.ReportTest -->
     </classes>
-  </test> <!-- Unityworks(failed) -->
-</suite> <!-- Failed suite [UnityworksReportTest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -50,6 +50,8 @@ public class ReportTest extends CoreClass {
 	public void epsilon_BMWAirBagRecall() throws InterruptedException
 
 	{
+		
+		System.out.println(System.getProperty("user.dir")); 
 		extentTest = extent.startTest("epsilon_BMWAirBagRecall");	
 		Method.stagelogin();
 		util.Wait_InvisibleLoader();
