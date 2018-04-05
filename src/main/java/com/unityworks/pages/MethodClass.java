@@ -52,7 +52,7 @@ public class MethodClass extends CoreClass {
     @FindBy(xpath= "//div[text()='Language']")
     public WebElement LnggDrp;
     
-    public By pageview =  By.xpath(".//*[@id='first_report']/tbody/tr[last()]/td[5]/b");
+   public By pageview =  By.xpath(".//*[@id='first_report']/tbody/tr[last()]/td[5]/b");
     
     
     

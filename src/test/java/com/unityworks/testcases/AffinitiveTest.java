@@ -7,8 +7,11 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.SkipException;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
 
 import com.unityworks.core.CoreClass;
@@ -21,8 +24,7 @@ public class AffinitiveTest extends CoreClass {
 	MethodClass Method;
 	PageLoad Load;
 	Util util = null;
-	WebDriverWait wait = null;
-	
+		
 	public AffinitiveTest()
 	{
 		super();
@@ -33,47 +35,74 @@ public class AffinitiveTest extends CoreClass {
 	@BeforeTest
 	public void setup() {
 
-		//initialize();
+		
 		Method = new MethodClass();
 		Load = new PageLoad();
 	    util =  new Util();
-
+	    
 	}
 	
-	@Test
-	public void affinitive_BMWAffinitiveTire() throws InterruptedException
+	@Test(dataProvider = "getdata",dataProviderClass =Util.class)
+	public void unityworksReportTest(String Category, String SubCategory, 
+			String ReportTitle, String PageView, String ExecutionSatus) throws InterruptedException
 
-	{
-		extentTest = extent.startTest("affinitive_BMWAffinitiveTire");	
-		Method.stagelogin();
+	{ extentTest = extent.startTest(Category+"-"+SubCategory);	
+		if(ExecutionSatus.equals("Yes"))
+			{
+         Method.stagelogin();
+		log.debug("Stage Login Successful");
 		util.Wait_InvisibleLoader();
 		Method.EnterDate();
-		Method.SelectFormDropdown(excel.getCellData("TestData", "Category", 17));
+		log.debug("Date has been entered successfully");
+		Method.SelectFormDropdown(Category);
+		log.debug("Category has been selected successfully");
 		util.Wait_InvisibleLoader();
-		Method.SelectFromSubDropdown(excel.getCellData("TestData", "SubCategory", 17));
-	    Thread.sleep(1000);
+		Util.delay();
+		Method.SelectFromSubDropdown(SubCategory);
+		log.debug("SubCategory has been selected successfully");
+		Util.delay();
 		Method.clickondisplayBtn();
-	    
+		log.debug("Click on display button");
+		
+		util.wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath(PageView)));
 	    util.Wait_TillPageView();
-		WebElement stageelement1 = driver.findElement(Method.pageview);
-		WebElement stageelement2 = driver.findElement(By.xpath("//span[text()='Bmw Affinitiv Tire']"));
+        WebElement stageelement2 = driver.findElement(By.xpath(ReportTitle));
+		WebElement stageelement1 = driver.findElement(By.xpath(PageView));
+		log.debug("Page view has been Added into the list");
 		List<String> Lst = new ArrayList<String>();
 		Lst.add(stageelement1.getText());
 		Lst.add(stageelement2.getText());
 		Method.Prodlogin();
+		log.debug("Prod Login Successful");
 		util.Wait_InvisibleLoader();
 		Method.EnterDate();
-		Method.SelectFormDropdown(excel.getCellData("TestData", "Category", 17));
+		log.debug("Date has been entered successfully");
+		Method.SelectFormDropdown(Category);
+		log.debug("Category has been selected successfully");
 		util.Wait_InvisibleLoader();
-	    Method.SelectFromSubDropdown(excel.getCellData("TestData", "SubCategory", 17));
-	    Thread.sleep(1000);
+		Util.delay();
+	    Method.SelectFromSubDropdown(SubCategory);
+	    log.debug("SubCategory has been selected successfully");
+	    Util.delay();
 	    Method.clickondisplayBtn();
-		util.Wait_TillPageView();
-		String prodelement1 = driver.findElement(Method.pageview).getText();
-		String prodelement2 = driver.findElement(By.xpath("//span[text()='Bmw Affinitiv Tire']")).getText();
-		System.out.println("Grand total of Affinitive>BMWAffinitiveTire=" + prodelement1);
+	    log.debug("Click on display button");
+	    util.wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath(PageView)));
+	    
+		//util.Wait_TillPageView();
+		String prodelement2 = (driver.findElement(By.xpath(ReportTitle))).getText();
+		String prodelement1 = (driver.findElement(By.xpath(PageView))).getText();
+	    System.out.println("Grand total of "+Category+">"+SubCategory+"=" + prodelement1);
         assertEquals(Lst.get(0), prodelement1);
 		assertEquals(Lst.get(1), prodelement2);
+		log.debug("Test Executed Successfully");
+			}
+		
+		else 
+		{
+			throw new SkipException("Skipping this exception");
+		}
 		}
 
 	

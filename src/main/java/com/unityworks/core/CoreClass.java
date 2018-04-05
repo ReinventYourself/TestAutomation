@@ -49,8 +49,8 @@ public class CoreClass {
 
 	public static WebDriver driver = null;
 	public static Properties prop;
-	public Logger log = Logger.getLogger("devpinoyLogger");
-	public Xls_Reader excel = new Xls_Reader(System.getProperty("user.dir") + "\\testdata.xlsx");
+	public static Logger log = Logger.getLogger("devpinoyLogger");
+	public static Xls_Reader excel = new Xls_Reader(System.getProperty("user.dir") + "\\testdata.xlsx");
 	public static Robot R = null;
 	public static ExtentReports extent;
 	public static ExtentTest extentTest;
@@ -73,9 +73,8 @@ public class CoreClass {
 
 	@BeforeTest
 	public void setExtent() {
-		extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/ExtentReport.html", true);
-
-		extent.addSystemInfo("Host Name", "SEZ-10.india.rsystems.com");
+		extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/UnityWorksTestAutomationReport.html", true);
+        extent.addSystemInfo("Host Name", "SEZ-10.india.rsystems.com");
 		extent.addSystemInfo("User Name", System.getProperty("user.name"));
 		extent.addSystemInfo("Environment", "prod");
 
@@ -104,14 +103,12 @@ public class CoreClass {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS:- " + result.getName());
 			extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS:- " + result.getThrowable());
-
-			String screenshotPath = CoreClass.getScreenshot(driver, result.getName());
+            String screenshotPath = CoreClass.getScreenshot(driver, result.getName());
 			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
-			// extentTest.log(LogStatus.FAIL,
-			// extentTest.addScreencast(screenshotPath));
+			//extentTest.log(LogStatus.FAIL, extentTest.addScreencast(screenshotPath));
 		} else if (result.getStatus() == ITestResult.SKIP) {
-			extentTest.log(LogStatus.SKIP, "Test Case SKIPPED IS:- " + result.getName());
-		} else if (result.getStatus() == ITestResult.SUCCESS) {
+			extentTest.log(LogStatus.SKIP, "Test Case SKIPPED IS:- " + result.getName());}
+		else if (result.getStatus() == ITestResult.SUCCESS) {
 			extentTest.log(LogStatus.PASS, "Test Case PASSED IS:- " + result.getName());
 
 		}
@@ -130,7 +127,7 @@ public class CoreClass {
 		else
 		{
 			System.out.println("If you want to send the Test result Email then turn on the setting from the config");
-			//driver.quit();
+			driver.quit();
 			
 		}
 		  
@@ -140,9 +137,10 @@ public class CoreClass {
 	public void initialize() {
 
 		if (prop.getProperty("Browser").equals("firefox"))
+		{
 			driver = new FirefoxDriver();
-		log.debug("Firefox Driver Launch");
-
+		   log.debug("Firefox Driver Launch");
+		}
 		if (prop.getProperty("Browser").equals("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver", "F:\\JavaWithSelenium\\Setup\\chromedriver.exe");

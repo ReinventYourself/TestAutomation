@@ -2,18 +2,19 @@ package com.unityworks.utils;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
 
 import com.unityworks.core.CoreClass;
 import com.unityworks.pages.MethodClass;
 
 public class Util extends CoreClass {
 
-   WebDriverWait wait = null;
+  public WebDriverWait wait = null;
    MethodClass M = new MethodClass();
    
    public Util()
    {
-	   wait = new WebDriverWait(driver, 60);
+	   wait = new WebDriverWait(driver, 300);
    }
    
   
@@ -59,5 +60,30 @@ public class Util extends CoreClass {
 		
 		
 	}
+	
+	
+	@DataProvider
+	public static Object[][] getdata()
+	{
+	
+		int rowNum =excel.getRowCount("TestData");
+		System.out.println(rowNum);
+		int colcount = excel.getColumnCount("TestData");
+		System.out.println(colcount);
+		Object[][] data = new Object[rowNum-1][colcount];
+		for(int i=2;i<=rowNum;i++)
+		{
+			for(int j=0;j<colcount;j++)
+			{
+				data[i-2][j] = excel.getCellData("TestData", j, i);
+				//System.out.println(data[i-2][j]);
+				
+			}
+		}
+		return data;
+		
+		}
+	
+	
 	
 }
