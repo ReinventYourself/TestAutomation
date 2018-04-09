@@ -17,12 +17,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentTest;
-import com.unityworks.core.CoreClass;
 import com.unityworks.pages.MethodClass;
 import com.unityworks.utils.PageLoad;
 import com.unityworks.utils.Util;
 
-import junit.framework.Assert;
+
 
 public class ReportTest extends CoreClass {
 
@@ -51,7 +50,7 @@ public class ReportTest extends CoreClass {
 
 	{
 		
-		System.out.println(System.getProperty("user.dir")); 
+		System.out.println(); 
 		extentTest = extent.startTest("epsilon_BMWAirBagRecall");	
 		Method.stagelogin();
 		util.Wait_InvisibleLoader();

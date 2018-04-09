@@ -53,7 +53,23 @@
                 </goals>
               </execution>
             </executions>
-          </plugin>
+          </plugin>    
+        
+          <plugin>
+			<!-- Build an executable JAR -->
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<version>2.4</version>
+			<configuration>
+				<archive>
+					<manifest>
+						<mainClass>com.unityworks.testcases.CoreClass</mainClass>
+					</manifest>
+				</archive>
+			</configuration>
+		</plugin>
+          
+            
   </plugins>
   
   </pluginManagement>
@@ -64,8 +80,7 @@
    <dependency>
   <groupId>org.testng</groupId>
   <artifactId>testng</artifactId>
-  <version>6.8</version>
-  <scope>compile</scope>
+  <version>6.14.2</version>
 </dependency>  
 
  <dependency>

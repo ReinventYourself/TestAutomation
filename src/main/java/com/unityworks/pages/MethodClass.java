@@ -12,9 +12,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.unityworks.core.CoreClass;
+import com.unityworks.testcases.CoreClass;
 
-public class MethodClass extends CoreClass {
+public class MethodClass extends com.unityworks.testcases.CoreClass {
 
 	@FindBy(xpath = ".//a[text()='CLICK HERE TO LOG IN']")
 	WebElement LoginLnk;

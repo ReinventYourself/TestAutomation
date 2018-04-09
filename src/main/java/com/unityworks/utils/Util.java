@@ -4,8 +4,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 
-import com.unityworks.core.CoreClass;
 import com.unityworks.pages.MethodClass;
+import com.unityworks.testcases.CoreClass;
 
 public class Util extends CoreClass {
 

@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [UnityworksReportTest]">
-  <test name="Unityworks(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UnityworksReportTest]">
+  <test thread-count="5" name="Unityworks(failed)">
     <classes>
-      <class name="com.unityworks.testcases.ReportTest">
+      <class name="com.unityworks.testcases.AffinitiveTest">
         <methods>
           <include name="initialize"/>
           <include name="setExtent"/>
-          <include name="epsilon_BusinessElite"/>
-          <include name="epsilon_BMWT2"/>
-          <include name="epsilon_CSSR_EVO_OLA_Combined"/>
-          <include name="epsilon_HondaSPS"/>
-          <include name="epsilon_FordTruck"/>
-          <include name="epsilon_Cherokee"/>
-          <include name="epsilon_CSSR_CarCare"/>
-          <include name="epsilon_FordService"/>
-          <include name="epsilon_2014SalesTouchesRound1"/>
-          <include name="epsilon_HyundaiEM"/>
-          <include name="epsilon_CSSROLA"/>
-          <include name="setup"/>
-          <include name="epsilon_CSSRLease"/>
-          <include name="epsilon_HondaLcc"/>
-          <include name="epsilon_BMWAirBagRecall"/>
-          <include name="epsilon_InterceptLMA"/>
-        </methods>
-      </class> <!-- com.unityworks.testcases.ReportTest -->
-      <class name="com.unityworks.testcases.AffinitiveTest">
-        <methods>
           <include name="tearDown"/>
+          <include name="unityworksReportTest"/>
+          <include name="SendEmail"/>
+          <include name="endReport"/>
           <include name="setup"/>
-          <include name="affinitive_BMWAffinitiveTire"/>
         </methods>
       </class> <!-- com.unityworks.testcases.AffinitiveTest -->
     </classes>

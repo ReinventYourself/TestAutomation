@@ -14,7 +14,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
 
-import com.unityworks.core.CoreClass;
 import com.unityworks.pages.MethodClass;
 import com.unityworks.utils.PageLoad;
 import com.unityworks.utils.Util;
@@ -44,10 +43,10 @@ public class AffinitiveTest extends CoreClass {
 	
 	@Test(dataProvider = "getdata",dataProviderClass =Util.class)
 	public void unityworksReportTest(String Category, String SubCategory, 
-			String ReportTitle, String PageView, String ExecutionSatus) throws InterruptedException
+			String ReportTitle, String PageView, String ExecutionStatus) throws InterruptedException
 
 	{ extentTest = extent.startTest(Category+"-"+SubCategory);	
-		if(ExecutionSatus.equals("Yes"))
+		if(ExecutionStatus.equals("Yes"))
 			{
          Method.stagelogin();
 		log.debug("Stage Login Successful");
@@ -66,7 +65,7 @@ public class AffinitiveTest extends CoreClass {
 		
 		util.wait.until(ExpectedConditions
 				.presenceOfElementLocated(By.xpath(PageView)));
-	    util.Wait_TillPageView();
+	   // util.Wait_TillPageView();
         WebElement stageelement2 = driver.findElement(By.xpath(ReportTitle));
 		WebElement stageelement1 = driver.findElement(By.xpath(PageView));
 		log.debug("Page view has been Added into the list");
