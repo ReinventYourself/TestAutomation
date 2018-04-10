@@ -2,7 +2,8 @@
 <suite name="UnityworksReportTest">
     <test name="Unityworks">
      <classes>
-      <class name="com.unityworks.testcases.AffinitiveTest"/>
+     <class name="com.unityworks.testcases.AffinitiveTest"/> 
     </classes>
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+

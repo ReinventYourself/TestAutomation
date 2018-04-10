@@ -1,37 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="15" failed="0" ignored="0" total="17" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="UnityworksReportTest" duration-ms="251" started-at="2018-04-09T12:49:26Z" finished-at="2018-04-09T12:49:26Z">
+  <suite name="UnityworksReportTest" duration-ms="106665" started-at="2018-04-10T11:19:44Z" finished-at="2018-04-10T11:21:31Z">
     <groups>
     </groups>
-    <test name="Unityworks" duration-ms="251" started-at="2018-04-09T12:49:26Z" finished-at="2018-04-09T12:49:26Z">
+    <test name="Unityworks" duration-ms="106665" started-at="2018-04-10T11:19:44Z" finished-at="2018-04-10T11:21:31Z">
       <class name="com.unityworks.testcases.AffinitiveTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@28d25987]" name="initialize" is-config="true" duration-ms="4395" started-at="2018-04-09T12:49:22Z" finished-at="2018-04-09T12:49:26Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="initialize" is-config="true" duration-ms="3534" started-at="2018-04-10T11:19:41Z" finished-at="2018-04-10T11:19:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@28d25987]" name="setExtent" is-config="true" duration-ms="58" started-at="2018-04-09T12:49:26Z" finished-at="2018-04-09T12:49:26Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="setExtent" is-config="true" duration-ms="49" started-at="2018-04-10T11:19:44Z" finished-at="2018-04-10T11:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@28d25987]" name="setup" is-config="true" duration-ms="13" started-at="2018-04-09T12:49:26Z" depends-on-methods="com.unityworks.testcases.CoreClass.setExtent" finished-at="2018-04-09T12:49:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="setup" is-config="true" duration-ms="15" started-at="2018-04-10T11:19:45Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-10T11:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@28d25987]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-09T12:49:26Z" data-provider="getdata" finished-at="2018-04-09T12:49:26Z">
-          <exception class="java.lang.RuntimeException">
+        <test-method status="PASS" signature="newreports(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="newreports" duration-ms="42688" started-at="2018-04-10T11:19:45Z" data-provider="NewReportGetData" finished-at="2018-04-10T11:20:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW Airbag Recall]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='BMW Airbag Recall']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BMW Airbag Recall]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[398]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newreports -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-10T11:20:27Z" finished-at="2018-04-10T11:20:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newreports status=SUCCESS method=AffinitiveTest.newreports(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="63692" started-at="2018-04-10T11:20:27Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW Airbag Recall]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='BMW Airbag Recall']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SUCCESS method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2014 Sales Touches Round 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon Sales Touch']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[java.lang.NullPointerException]]>
+              <![CDATA[Skipping this exception]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -46,29 +165,1109 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at com.unityworks.testcases.CoreClass.main(CoreClass.java:73)
-Caused by: java.lang.NullPointerException
-at com.unityworks.utils.Xls_Reader.getRowCount(Xls_Reader.java:48)
-at com.unityworks.utils.Util.getdata(Util.java:69)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW T2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon BMW T2']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 20 more
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unityworksReportTest -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@28d25987]" name="endReport" is-config="true" duration-ms="164" started-at="2018-04-09T12:49:26Z" finished-at="2018-04-09T12:49:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="1" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business Elite]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon Business Elite Standard, Non-Standard Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="1" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSSR - Car Care]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon Car Care Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSSR - EVO & OLA Combined]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='EVO OLA Combined Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="1" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSSR - OLA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon OLA Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSSR Lease]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon CSSR Lease Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='first_report']/tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cherokee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Cherokee Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ford Service]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Ford Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ford Truck]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Ford Truck Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Honda LCC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Honda Lcc']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Honda SPS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Honda SPS']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyundai EM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Hyundai EM']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="0" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epsilon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Intercept National LMA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Epsilon National LMA Report']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[4]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="SKIP" signature="unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="unityworksReportTest" duration-ms="1" started-at="2018-04-10T11:21:31Z" data-provider="getdata" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Affinitiv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW Affinitiv Tire]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//span[text()='Bmw Affinitiv Tire']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[5]/b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.unityworksReportTest(AffinitiveTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unityworksReportTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unityworksReportTest status=SKIP method=AffinitiveTest.unityworksReportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="endReport" is-config="true" duration-ms="184" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@28d25987]" name="SendEmail" is-config="true" duration-ms="1179" started-at="2018-04-09T12:49:26Z" finished-at="2018-04-09T12:49:28Z">
+        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@3514a4c0]" name="SendEmail" is-config="true" duration-ms="1382" started-at="2018-04-10T11:21:31Z" finished-at="2018-04-10T11:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendEmail -->

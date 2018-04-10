@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import com.unityworks.testcases.CoreClass;
+import com.unityworks.core.CoreClass;
 public class PageLoad extends CoreClass {
 
 	///WebDriver driver = new FirefoxDriver();

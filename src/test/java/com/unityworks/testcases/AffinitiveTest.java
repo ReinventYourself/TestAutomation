@@ -9,11 +9,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
 
+import com.unityworks.core.CoreClass;
 import com.unityworks.pages.MethodClass;
 import com.unityworks.utils.PageLoad;
 import com.unityworks.utils.Util;
@@ -104,6 +106,39 @@ public class AffinitiveTest extends CoreClass {
 		}
 		}
 
+	
+	
+	@Test(dataProvider = "NewReportGetData",dataProviderClass =Util.class)
+	public void newreports(String Category, String SubCategory, 
+			String ReportTitle, String PageView, String ExpectedReportTitle, String ExpectedPageViewCount) throws InterruptedException
+	{
+		extentTest = extent.startTest(Category+"-"+SubCategory);
+		Method.stagelogin();
+		log.debug("Stage Login Successful");
+		util.Wait_InvisibleLoader();
+		Method.EnterDate();
+		log.debug("Date has been entered successfully");
+		Method.SelectFormDropdown(Category);
+		log.debug("Category has been selected successfully");
+		util.Wait_InvisibleLoader();
+		Util.delay();
+		Method.SelectFromSubDropdown(SubCategory);
+		log.debug("SubCategory has been selected successfully");
+		Util.delay();
+		Method.clickondisplayBtn();
+		log.debug("Click on display button");
+		
+		util.wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath(PageView)));
+
+		String ReportName = (driver.findElement(By.xpath(ReportTitle))).getText();
+		String PageviewCount = (driver.findElement(By.xpath(PageView))).getText();
+		
+		Assert.assertEquals(ReportName, ExpectedReportTitle);
+		assertEquals(PageviewCount,ExpectedPageViewCount);
+		
+		
+	}
 	
 	
 	

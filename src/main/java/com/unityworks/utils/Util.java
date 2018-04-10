@@ -4,8 +4,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 
+import com.unityworks.core.CoreClass;
 import com.unityworks.pages.MethodClass;
-import com.unityworks.testcases.CoreClass;
 
 public class Util extends CoreClass {
 
@@ -84,6 +84,27 @@ public class Util extends CoreClass {
 		
 		}
 	
+	@DataProvider
+	public static Object[][] NewReportGetData()
+	{
+	
+		int rowNum =excel.getRowCount("NewReportTestData");
+		System.out.println(rowNum);
+		int colcount = excel.getColumnCount("NewReportTestData");
+		System.out.println(colcount);
+		Object[][] data = new Object[rowNum-1][colcount];
+		for(int i=2;i<=rowNum;i++)
+		{
+			for(int j=0;j<colcount;j++)
+			{
+				data[i-2][j] = excel.getCellData("NewReportTestData", j, i);
+				//System.out.println(data[i-2][j]);
+				
+			}
+		}
+		return data;
+		
+		}
 	
 	
 }

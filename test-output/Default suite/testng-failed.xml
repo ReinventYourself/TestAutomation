@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.unityworks.testcases.AffinitiveTest">
         <methods>
           <include name="initialize"/>
           <include name="setExtent"/>
           <include name="tearDown"/>
-          <include name="unityworksReportTest" invocation-numbers="4 13"/>
-          <include name="endReport"/>
           <include name="SendEmail"/>
+          <include name="endReport"/>
+          <include name="newreports" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.unityworks.testcases.AffinitiveTest -->
