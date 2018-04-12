@@ -20,7 +20,5 @@ public class MainClass {
 		 tng.run();
 		 
 		 
-		 System.out.println("Main method executed");
-		 System.out.println(System.getProperty("user.dir"));
 	}
 }
