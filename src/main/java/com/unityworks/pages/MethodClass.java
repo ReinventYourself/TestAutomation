@@ -85,13 +85,14 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 		log.debug("Prod login Successfull");
 	}
 
-	public void EnterDate() {
+	public void EnterDate() throws InterruptedException {
 
 		FromDate.clear();
 		FromDate.sendKeys(excel.getCellData("Calendar", "FromDate", 2));
+		Thread.sleep(1000);
 		ToDate.clear();
 		ToDate.sendKeys(excel.getCellData("Calendar", "ToDate", 2));
-		R.keyPress(KeyEvent.VK_ESCAPE);
+	    R.keyPress(KeyEvent.VK_ESCAPE);
 		R.keyRelease(KeyEvent.VK_ESCAPE);
 		log.debug("Date Entered Successfully");
 

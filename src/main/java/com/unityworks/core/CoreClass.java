@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import javax.activation.DataHandler;
@@ -41,6 +42,7 @@ import org.testng.TestNG;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.collections.Lists;
@@ -49,6 +51,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.unityworks.config.Configuration;
+import com.unityworks.utils.Util;
 import com.unityworks.utils.Xls_Reader;
 
 public class CoreClass {
@@ -124,6 +127,8 @@ public class CoreClass {
 		extent.endTest(extentTest);
 		
 	}
+	
+
 
 	@AfterSuite
 	public void SendEmail()

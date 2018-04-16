@@ -109,10 +109,13 @@ public class AffinitiveTest extends CoreClass {
 	
 	
 	@Test(dataProvider = "NewReportGetData",dataProviderClass =Util.class)
-	public void newreports(String Category, String SubCategory, 
-			String ReportTitle, String PageView, String ExpectedReportTitle, String ExpectedPageViewCount) throws InterruptedException
+	public void verifyPageViewandReportTitle(String Category, String SubCategory, 
+			String ReportTitle, String PageView, String ExpectedReportTitle, String ExpectedPageViewCount,
+			String ExecutionStatus) throws InterruptedException
 	{
 		extentTest = extent.startTest(Category+"-"+SubCategory);
+		if(ExecutionStatus.equals("Yes"))
+		{
 		Method.stagelogin();
 		log.debug("Stage Login Successful");
 		util.Wait_InvisibleLoader();
@@ -137,6 +140,13 @@ public class AffinitiveTest extends CoreClass {
 		Assert.assertEquals(ReportName, ExpectedReportTitle);
 		assertEquals(PageviewCount,ExpectedPageViewCount);
 		
+		}
+		
+		else 
+		{
+			throw new SkipException("Skipping this exception");
+			
+		}
 		
 	}
 	

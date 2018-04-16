@@ -1,6 +1,8 @@
 F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\config\Configuration.java
 F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\utils\PageLoad.java
 F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\utils\Util.java
+F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\config\MyTransformer.java
 F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\core\CoreClass.java
 F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\pages\MethodClass.java
 F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\utils\Xls_Reader.java
+F:\JavaWithSelenium\UnityworksReportTest\src\main\java\com\unityworks\config\RetryAnalyzer.java

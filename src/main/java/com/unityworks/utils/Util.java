@@ -14,7 +14,7 @@ public class Util extends CoreClass {
    
    public Util()
    {
-	   wait = new WebDriverWait(driver, 300);
+	   wait = new WebDriverWait(driver, 600);
    }
    
   
