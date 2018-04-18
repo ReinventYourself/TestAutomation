@@ -11,9 +11,9 @@
           <include name="initialize"/>
           <include name="setExtent"/>
           <include name="tearDown"/>
-          <include name="unityworksReportTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"/>
           <include name="SendEmail"/>
           <include name="endReport"/>
+          <include name="verifyPageViewandReportTitle" invocation-numbers="60 61"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.unityworks.testcases.AffinitiveTest -->

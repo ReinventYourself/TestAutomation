@@ -52,6 +52,54 @@ public class MethodClass extends com.unityworks.core.CoreClass {
     @FindBy(xpath= "//div[text()='Language']")
     public WebElement LnggDrp;
     
+    
+   //===============Double Click WebElement=======================
+    @FindBy(xpath= "//input[@value='bc_select']")
+    public WebElement bc_select;
+  
+    @FindBy(xpath= "//input[@value='program_select']")
+    public WebElement program_select;
+    
+    @FindBy(xpath= "//input[@value='custom_select']")
+    public WebElement custom_select;
+    
+    @FindBy(xpath= "//select[@class='bc_select select_input']")
+    public WebElement bc_select_options;
+    
+    @FindBy(xpath = "//select[@class='program_select select_input']")
+    public WebElement program_select_options;
+    
+    @FindBy(xpath = "//select[@class='custom_select select_input']")
+    public WebElement custom_select_options; 
+    
+    @FindBy(xpath= "//input[@name='apply_mgt_fee' and @id='mgt_yes']")
+    public WebElement apply_mgt_yes;
+    
+    @FindBy(xpath = "//input[@name='apply_mgt_fee' and @id='mgt_no']")
+    public WebElement apply_mgt_No;
+    
+    @FindBy(xpath = "//input[@name='apply_cc_fee' and @id='ccf_yes']")
+    public WebElement apply_cc_yes;
+    
+    @FindBy(xpath = "//input[@name='apply_cc_fee' and @id='ccf_no']")
+    public WebElement apply_cc_No;
+    
+    @FindBy(xpath = "//input[@name='res_cmp_start_date' and @id='mgt_yes']")
+    public WebElement res_cmp_startdate_Yes;
+    
+    @FindBy(xpath = "//input[@name='res_cmp_start_date' and @id='mgt_no']")
+    public WebElement res_cmp_startdate_No;
+    
+    @FindBy(xpath= "//select[@name= 'report_type']")
+    public WebElement ReportType;
+    
+    @FindBy(xpath= "//span[text()='Add Scheduled Reports']")
+    public WebElement AddScheduleReportBtn;
+    
+    
+    //@FindBy(xpath= "//span[text()='Management Fee Table']")
+    //public WebElement MngFeeTableReportTitle;
+    
    public By pageview =  By.xpath(".//*[@id='first_report']/tbody/tr[last()]/td[5]/b");
     
     
@@ -64,6 +112,113 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 		PageFactory.initElements(driver, this);
 
 	}
+	
+	/*public String SelectTitleAsPerReportType(String value1, String value2)
+	{
+		String ReportGetText;
+		
+		if(value1.equals("Report")) 
+		ReportGetText =	driver.findElement(By.xpath(value2)).getText();
+		else
+		ReportGetText =MngFeeTableReportTitle.getText();
+		return ReportGetText;
+	}*/
+	
+	
+	/*public String SelectReportPageviewCountAsPerReportType(String Reporttype, String PageviewCount, String pageviewCount1)
+	{ 
+		
+     String pageviewcount;
+	 if(Reporttype.equals("Report"))
+		pageviewcount=	driver.findElement(By.xpath(PageviewCount)).getText();
+			else 
+	    pageviewcount=driver.findElement(By.xpath(pageviewCount1)).getText();
+		return pageviewcount;
+	}*/
+	
+	
+	
+	public void SelectReporttype(String value)
+	
+	{
+		S = new Select(ReportType);
+	    S.selectByVisibleText(value);
+		
+	}
+	
+	public void SelectRadioBtn(String value)
+	{   
+		Actions a = new Actions(driver);
+		
+		if(value.equals("BC"))
+			a.moveToElement(bc_select).click().build().perform();
+		if(value.equals("Program"))
+			a.moveToElement(program_select).click().build().perform();
+		  if(value.equals("Custom Select"))
+			a.moveToElement(custom_select).click().build().perform();
+		
+	}
+	
+	
+	public void SelectDropDownBasedOnRadiobtn(String value, String BCSelect, 
+			String ProgramSelect, String CustomSelect)
+	{
+		if(value.equals("BC"))
+		{
+			S= new Select(bc_select_options);
+			S.selectByVisibleText(BCSelect);
+		}
+		
+		if(value.equals("Program"))
+		{	
+			S= new Select(program_select_options);
+		    S.selectByVisibleText(ProgramSelect);
+		}
+		if(value.equals("Custom Select"))
+		{
+			S= new Select(custom_select_options);
+			S.selectByVisibleText(CustomSelect);
+		}
+	
+	}
+	
+	public void SelectApplyCCFee(String value)
+	{
+		if(value.equals("Yes"))
+		apply_cc_yes.click();
+		else
+		{
+			apply_cc_No.click();
+	    }
+	}
+	
+
+	public void SelectApplyMgtFee(String value)
+	{
+		if(value.equals("Yes"))
+		apply_mgt_yes.click();
+		else
+		{
+		  apply_mgt_No.click();
+	    }
+	}
+	
+	
+	public void SelectResCMPStartDate(String value)
+	{
+		if (value.equals("Yes"))
+			res_cmp_startdate_Yes.click();
+		else 
+			res_cmp_startdate_No.click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public void stagelogin() throws InterruptedException {
 
@@ -85,13 +240,34 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 		log.debug("Prod login Successfull");
 	}
 
-	public void EnterDate() throws InterruptedException {
+
+	public void EnterDate( ) throws InterruptedException {
 
 		FromDate.clear();
 		FromDate.sendKeys(excel.getCellData("Calendar", "FromDate", 2));
 		Thread.sleep(1000);
 		ToDate.clear();
 		ToDate.sendKeys(excel.getCellData("Calendar", "ToDate", 2));
+	    R.keyPress(KeyEvent.VK_ESCAPE);
+		R.keyRelease(KeyEvent.VK_ESCAPE);
+		log.debug("Date Entered Successfully");
+
+	}
+
+	
+	
+	
+	
+	
+	public void EnterDate1( String StartDate, String EndDate) throws InterruptedException {
+
+		FromDate.clear();
+		FromDate.sendKeys(StartDate);
+		//FromDate.sendKeys(excel.getCellData("Calendar", "FromDate", 2));
+		Thread.sleep(1000);
+		ToDate.clear();
+		ToDate.sendKeys(EndDate);
+		//ToDate.sendKeys(excel.getCellData("Calendar", "ToDate", 2));
 	    R.keyPress(KeyEvent.VK_ESCAPE);
 		R.keyRelease(KeyEvent.VK_ESCAPE);
 		log.debug("Date Entered Successfully");

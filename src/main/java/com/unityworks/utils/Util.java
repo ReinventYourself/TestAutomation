@@ -107,4 +107,29 @@ public class Util extends CoreClass {
 		}
 	
 	
+	
+	@DataProvider
+	public static Object[][] DoubleClickReportGetData()
+	{
+	
+		int rowNum =excel.getRowCount("DoubleClickReportTestData");
+		System.out.println(rowNum);
+		int colcount = excel.getColumnCount("DoubleClickReportTestData");
+		System.out.println(colcount);
+		Object[][] data = new Object[rowNum-1][colcount];
+		for(int i=2;i<=rowNum;i++)
+		{
+			for(int j=0;j<colcount;j++)
+			{
+				data[i-2][j] = excel.getCellData("DoubleClickReportTestData", j, i);
+				//System.out.println(data[i-2][j]);
+				
+			}
+		}
+		return data;
+		
+		}
+	
+	
+	
 }

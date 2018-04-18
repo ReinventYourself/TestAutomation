@@ -43,7 +43,7 @@ public class AffinitiveTest extends CoreClass {
 	    
 	}
 	
-	@Test(dataProvider = "getdata",dataProviderClass =Util.class)
+	/*@Test(dataProvider = "getdata",dataProviderClass =Util.class)
 	public void unityworksReportTest(String Category, String SubCategory, 
 			String ReportTitle, String PageView, String ExecutionStatus) throws InterruptedException
 
@@ -104,22 +104,22 @@ public class AffinitiveTest extends CoreClass {
 		{
 			throw new SkipException("Skipping this exception");
 		}
-		}
+		}*/
 
 	
 	
 	@Test(dataProvider = "NewReportGetData",dataProviderClass =Util.class)
-	public void verifyPageViewandReportTitle(String Category, String SubCategory, 
+	public void verifyPageViewandReportTitle(String StartDate, String EndDate,String Category, String SubCategory, 
 			String ReportTitle, String PageView, String ExpectedReportTitle, String ExpectedPageViewCount,
 			String ExecutionStatus) throws InterruptedException
 	{
 		extentTest = extent.startTest(Category+"-"+SubCategory);
-		if(ExecutionStatus.equals("Yes"))
+		if(ExecutionStatus.equalsIgnoreCase("Yes"))
 		{
 		Method.stagelogin();
 		log.debug("Stage Login Successful");
 		util.Wait_InvisibleLoader();
-		Method.EnterDate();
+		Method.EnterDate1(StartDate, EndDate);
 		log.debug("Date has been entered successfully");
 		Method.SelectFormDropdown(Category);
 		log.debug("Category has been selected successfully");
@@ -150,6 +150,58 @@ public class AffinitiveTest extends CoreClass {
 		
 	}
 	
+	
+	@Test(dataProvider = "DoubleClickReportGetData",dataProviderClass =Util.class)
+	public void doubleclickreportTest(String StartDate, String EndDate, String Category, String SubCategory,
+			String RadioButton, String BCSelect, String ProgramSelect, String CustomSelect, 
+			String ApplyManagementFee, String ApplyContentCreationFee, String RestrictCampaignStartDate, 
+			String TypeDropDown,String ReportTitle, String PageView, 
+			String ExpectedReportTitle, String ExpectedPageViewCount,
+			String ExecutionStatus ) throws InterruptedException
+	
+	{
+		
+		extentTest = extent.startTest(Category+"-"+SubCategory);
+      
+		
+	   if(ExecutionStatus.equalsIgnoreCase("Yes"))
+	   {
+		
+	    Method.stagelogin();
+	    Method.AddScheduleReportBtn.isDisplayed();
+		log.debug("Stage Login Successful");
+		util.Wait_InvisibleLoader();
+		Method.EnterDate1(StartDate, EndDate);
+		log.debug("Date has been entered successfully");
+		Method.SelectFormDropdown(Category);
+		log.debug("Category has been selected successfully");
+		util.Wait_InvisibleLoader();
+		Util.delay();
+		Method.SelectFromSubDropdown(SubCategory);
+		log.debug("SubCategory has been selected successfully");
+		Util.delay();
+		Method.SelectRadioBtn(RadioButton);
+		Method.SelectDropDownBasedOnRadiobtn(RadioButton, BCSelect,ProgramSelect, CustomSelect);
+		Method.SelectApplyMgtFee(ApplyManagementFee);
+		Method.SelectApplyCCFee(ApplyContentCreationFee);
+		Method.SelectResCMPStartDate(RestrictCampaignStartDate);
+		Method.SelectReporttype(TypeDropDown);
+		Method.clickondisplayBtn();
+		util.wait.until(ExpectedConditions
+				.presenceOfElementLocated(By.xpath(PageView)));
+		String ReportName = (driver.findElement(By.xpath(ReportTitle))).getText();
+		String PageviewCount = (driver.findElement(By.xpath(PageView))).getText();
+		
+		Assert.assertEquals(ReportName, ExpectedReportTitle);
+		
+		if(TypeDropDown.equalsIgnoreCase("Report"))
+		assertEquals(PageviewCount,ExpectedPageViewCount);
+		} else 
+     {
+    	 throw new SkipException("Skipping this exception");
+     }
+	
+     }
 	
 	
 }

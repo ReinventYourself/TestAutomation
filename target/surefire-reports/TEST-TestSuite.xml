@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,664.963" tests="78" errors="0" skipped="18" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,945.306" tests="64" errors="0" skipped="2" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -64,127 +64,72 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="35.246"/>
+  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="27.466"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.706"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.143"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.415"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.377"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="38.66"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="29.435"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="261.638"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="40.396"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.359"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.725"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.78"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.151"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="30.226"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.304"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="37.076"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.432"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.109"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.475"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.162"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.362"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.252"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.65"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.581"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.184"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.518"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.197"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.229"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.328"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.4"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.569"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.787"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.213"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.143"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.766"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.387"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.878"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.552"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.215"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.17"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.073"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.082"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.41"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.441"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.556"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.283"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.849"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.823"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.406"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.362"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.449"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.303"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.639"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.656"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.364"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.435"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.4"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="49.148"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.673"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.785"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.896"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
     <skipped message="Skipping this exception"/>
-    <system-out><![CDATA[19
-5
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e) on port 33966
-Only local connections are allowed.
-log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-]]></system-err>
   </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
     <skipped message="Skipping this exception"/>
   </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="unityworksReportTest" classname="com.unityworks.testcases.AffinitiveTest" time="0">
-    <skipped message="Skipping this exception"/>
-  </testcase>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="33.433"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.788"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.26"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.661"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="33.378"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="34.472"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="44.506"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="35.999"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="32.254"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.857"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.548"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.206"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="30.974"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.203"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="33.232"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.846"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.232"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.824"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.246"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.63"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="29.25"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.637"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.481"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.342"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.479"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.336"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.093"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="29.196"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="30.803"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.388"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.28"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.373"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.464"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.529"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.546"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.604"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.474"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.751"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.31"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.764"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.505"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.736"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.105"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.772"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.507"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.188"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.266"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.211"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.005"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.93"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.489"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.327"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.666"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.461"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.033"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.838"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="45.594"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.077"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.376"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.263"/>
 </testsuite>
