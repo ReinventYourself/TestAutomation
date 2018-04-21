@@ -2,12 +2,16 @@ package com.unityworks.pages;
 
 import java.awt.Desktop.Action;
 import java.awt.event.KeyEvent;
+import java.util.Date;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -17,19 +21,19 @@ import com.unityworks.core.CoreClass;
 public class MethodClass extends com.unityworks.core.CoreClass {
 
 	@FindBy(xpath = ".//a[text()='CLICK HERE TO LOG IN']")
-	WebElement LoginLnk;
+	public WebElement LoginLnk;
 
 	@FindBy(xpath = "//input[@id ='login']")
-	WebElement LoginTxt;
+	public WebElement LoginTxt;
 
 	@FindBy(xpath = "//input[@id ='password']")
-	WebElement PasswordTxt;
+	public WebElement PasswordTxt;
 
 	@FindBy(xpath = "//input[@type ='submit']")
-	WebElement SubmitBtn;
+	public WebElement SubmitBtn;
 
 	@FindBy(xpath = ".//input[@id ='from']")
-	WebElement FromDate;
+	public WebElement FromDate;
 
 	@FindBy(xpath = ".//input[@id ='to']")
 	public WebElement ToDate;
@@ -95,6 +99,18 @@ public class MethodClass extends com.unityworks.core.CoreClass {
     
     @FindBy(xpath= "//span[text()='Add Scheduled Reports']")
     public WebElement AddScheduleReportBtn;
+   
+    
+    //======================Campaign Manager WebElement==========================================
+    
+    @FindBy(xpath= "//img[@src='http://uwmedia.us/includes/video_lab_logo.png']")
+    public WebElement LogoImg;
+    
+    @FindBy(xpath = "//div[contains(text(),'Campaign Manager')]")
+    public WebElement CmpMngText;
+    
+    @FindBy(xpath= "//div[contains(text(),'Affinitiv BMW')]")
+    public WebElement CmpAffinitiveBMW;
     
     
     //@FindBy(xpath= "//span[text()='Management Fee Table']")
@@ -135,6 +151,25 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 	    pageviewcount=driver.findElement(By.xpath(pageviewCount1)).getText();
 		return pageviewcount;
 	}*/
+	
+	
+	/*public void analyzeLog() {
+
+	    LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+	    for (LogEntry entry : logEntries) {
+	        System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
+	        //do something useful with the data
+	    }
+	    }*/
+	
+	
+	
+	public void ClickOnAffinitiveBMW()
+	{
+		CmpAffinitiveBMW.click();
+		
+	}
+	
 	
 	
 	
@@ -239,6 +274,19 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 		SubmitBtn.click();
 		log.debug("Prod login Successfull");
 	}
+	
+	public void CampaignLogin()
+	{
+		
+		driver.navigate().to(prop.getProperty("CampaignUrl"));
+		LoginTxt.sendKeys(excel.getCellData("LoginTest", "UserName", 2));
+		PasswordTxt.sendKeys(excel.getCellData("LoginTest", "Password", 2));
+		SubmitBtn.click();
+		LogoImg.isDisplayed();
+		CmpMngText.isDisplayed();
+		log.debug("Campaign login Successful");
+	}
+	
 
 
 	public void EnterDate( ) throws InterruptedException {

@@ -8,6 +8,7 @@
 <test name="Unityworks">
   <classes>
     <class name="com.unityworks.testcases.AffinitiveTest"/> 
+    <class name="com.unityworks.testcases.CampaignTest"/>
    </classes>
 </test> <!-- Test -->
 

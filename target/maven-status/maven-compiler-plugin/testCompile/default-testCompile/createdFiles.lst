@@ -1,3 +1,5 @@
-com\unityworks\testcases\ReportTest.class
 com\unityworks\testcases\MainClass.class
+com\unityworks\testcases\CampaignTest.class
+com\unityworks\testcases\ReportTest.class
+com\unityworks\testcases\Refactor.class
 com\unityworks\testcases\AffinitiveTest.class

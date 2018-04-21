@@ -67,9 +67,9 @@ public class Util extends CoreClass {
 	{
 	
 		int rowNum =excel.getRowCount("TestData");
-		System.out.println(rowNum);
+		//System.out.println(rowNum);
 		int colcount = excel.getColumnCount("TestData");
-		System.out.println(colcount);
+		//System.out.println(colcount);
 		Object[][] data = new Object[rowNum-1][colcount];
 		for(int i=2;i<=rowNum;i++)
 		{
@@ -89,9 +89,9 @@ public class Util extends CoreClass {
 	{
 	
 		int rowNum =excel.getRowCount("NewReportTestData");
-		System.out.println(rowNum);
+		//System.out.println(rowNum);
 		int colcount = excel.getColumnCount("NewReportTestData");
-		System.out.println(colcount);
+		//System.out.println(colcount);
 		Object[][] data = new Object[rowNum-1][colcount];
 		for(int i=2;i<=rowNum;i++)
 		{
@@ -113,9 +113,9 @@ public class Util extends CoreClass {
 	{
 	
 		int rowNum =excel.getRowCount("DoubleClickReportTestData");
-		System.out.println(rowNum);
+		//System.out.println(rowNum);
 		int colcount = excel.getColumnCount("DoubleClickReportTestData");
-		System.out.println(colcount);
+		//System.out.println(colcount);
 		Object[][] data = new Object[rowNum-1][colcount];
 		for(int i=2;i<=rowNum;i++)
 		{

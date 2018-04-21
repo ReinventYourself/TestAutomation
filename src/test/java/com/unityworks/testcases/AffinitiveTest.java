@@ -40,6 +40,7 @@ public class AffinitiveTest extends CoreClass {
 		Method = new MethodClass();
 		Load = new PageLoad();
 	    util =  new Util();
+	   
 	    
 	}
 	

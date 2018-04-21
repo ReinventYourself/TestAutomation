@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,945.306" tests="64" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="180.309" tests="63" errors="0" skipped="57" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -64,72 +64,181 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="35.246"/>
-  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="27.466"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.706"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.143"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.415"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.377"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="38.66"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="29.435"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="261.638"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="40.396"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.359"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.725"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.78"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.151"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="30.226"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.304"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="37.076"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.432"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.109"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.475"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.162"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.362"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.252"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.65"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.581"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.184"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.518"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.197"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.229"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.328"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="28.4"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.569"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.787"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.213"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.143"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.766"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.387"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.878"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.552"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.215"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.17"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.073"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.082"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.41"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.441"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.556"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.283"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.849"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.823"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.406"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.362"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.449"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.303"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.639"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.656"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.364"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.435"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.4"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="49.148"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="25.673"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.785"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.896"/>
+  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="52.957"/>
+  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="27.576"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.452"/>
   <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
     <skipped message="Skipping this exception"/>
   </testcase>
   <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
     <skipped message="Skipping this exception"/>
   </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
+    <skipped message="Skipping this exception"/>
+  </testcase>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.77"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.71"/>
+  <testcase name="ValidateCampaign" classname="com.unityworks.testcases.CampaignTest" time="14.048"/>
 </testsuite>

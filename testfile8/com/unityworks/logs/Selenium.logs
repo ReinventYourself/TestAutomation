@@ -1,0 +1,64 @@
+14:06:58,702 DEBUG devpinoyLogger<strong>{1}</strong>:169 - Chrome Driver Launch
+14:07:08,770 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:07:08,794 DEBUG devpinoyLogger<strong>{1}</strong>:173 - Stage Login Successful
+14:07:10,137 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:07:10,138 DEBUG devpinoyLogger<strong>{1}</strong>:176 - Date has been entered successfully
+14:07:10,217 DEBUG devpinoyLogger<strong>{1}</strong>:178 - Category has been selected successfully
+14:07:20,408 DEBUG devpinoyLogger<strong>{1}</strong>:182 - SubCategory has been selected successfully
+14:07:33,545 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:07:33,571 DEBUG devpinoyLogger<strong>{1}</strong>:173 - Stage Login Successful
+14:07:34,895 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:07:34,895 DEBUG devpinoyLogger<strong>{1}</strong>:176 - Date has been entered successfully
+14:07:34,965 DEBUG devpinoyLogger<strong>{1}</strong>:178 - Category has been selected successfully
+14:07:45,086 DEBUG devpinoyLogger<strong>{1}</strong>:182 - SubCategory has been selected successfully
+14:07:58,273 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:07:58,297 DEBUG devpinoyLogger<strong>{1}</strong>:173 - Stage Login Successful
+14:07:59,599 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:07:59,599 DEBUG devpinoyLogger<strong>{1}</strong>:176 - Date has been entered successfully
+14:07:59,669 DEBUG devpinoyLogger<strong>{1}</strong>:178 - Category has been selected successfully
+14:08:09,856 DEBUG devpinoyLogger<strong>{1}</strong>:182 - SubCategory has been selected successfully
+14:08:23,726 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:08:23,750 DEBUG devpinoyLogger<strong>{1}</strong>:173 - Stage Login Successful
+14:08:25,043 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:08:25,043 DEBUG devpinoyLogger<strong>{1}</strong>:176 - Date has been entered successfully
+14:08:25,114 DEBUG devpinoyLogger<strong>{1}</strong>:178 - Category has been selected successfully
+14:08:35,276 DEBUG devpinoyLogger<strong>{1}</strong>:182 - SubCategory has been selected successfully
+14:08:48,692 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:08:48,716 DEBUG devpinoyLogger<strong>{1}</strong>:173 - Stage Login Successful
+14:08:50,027 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:08:50,027 DEBUG devpinoyLogger<strong>{1}</strong>:176 - Date has been entered successfully
+14:08:50,098 DEBUG devpinoyLogger<strong>{1}</strong>:178 - Category has been selected successfully
+14:09:00,241 DEBUG devpinoyLogger<strong>{1}</strong>:182 - SubCategory has been selected successfully
+14:09:13,783 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:09:13,783 DEBUG devpinoyLogger<strong>{1}</strong>:121 - Stage Login Successful
+14:09:15,088 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:09:15,088 DEBUG devpinoyLogger<strong>{1}</strong>:124 - Date has been entered successfully
+14:09:15,170 DEBUG devpinoyLogger<strong>{1}</strong>:126 - Category has been selected successfully
+14:09:25,370 DEBUG devpinoyLogger<strong>{1}</strong>:130 - SubCategory has been selected successfully
+14:09:35,460 DEBUG devpinoyLogger<strong>{1}</strong>:133 - Click on display button
+14:09:41,262 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:09:41,262 DEBUG devpinoyLogger<strong>{1}</strong>:121 - Stage Login Successful
+14:09:42,557 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:09:42,558 DEBUG devpinoyLogger<strong>{1}</strong>:124 - Date has been entered successfully
+14:09:42,626 DEBUG devpinoyLogger<strong>{1}</strong>:126 - Category has been selected successfully
+14:09:52,809 DEBUG devpinoyLogger<strong>{1}</strong>:130 - SubCategory has been selected successfully
+14:10:02,926 DEBUG devpinoyLogger<strong>{1}</strong>:133 - Click on display button
+14:10:07,753 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Stage login Successful
+14:10:07,753 DEBUG devpinoyLogger<strong>{1}</strong>:121 - Stage Login Successful
+14:10:09,044 DEBUG devpinoyLogger<strong>{1}</strong>:321 - Date Entered Successfully
+14:10:09,044 DEBUG devpinoyLogger<strong>{1}</strong>:124 - Date has been entered successfully
+14:10:09,130 DEBUG devpinoyLogger<strong>{1}</strong>:126 - Category has been selected successfully
+14:10:19,313 DEBUG devpinoyLogger<strong>{1}</strong>:130 - SubCategory has been selected successfully
+14:10:29,427 DEBUG devpinoyLogger<strong>{1}</strong>:133 - Click on display button
+14:10:36,839 DEBUG devpinoyLogger<strong>{1}</strong>:287 - Campaign login Successful
+14:10:39,476 DEBUG devpinoyLogger<strong>{1}</strong>:287 - Campaign login Successful
+14:10:52,071 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:10:52,073 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+14:10:52,074 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:10:52,074 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:10:52,074 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/gaurav.sharma1/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+14:10:52,244 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:10:52,244 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+14:10:52,244 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:10:52,244 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:10:52,244 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/gaurav.sharma1/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

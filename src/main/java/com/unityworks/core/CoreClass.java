@@ -64,6 +64,8 @@ public class CoreClass {
 	public static ExtentReports extent;
 	public static ExtentTest extentTest;
 	
+	
+	
 	public CoreClass() {
 
 		try {
@@ -141,7 +143,7 @@ public class CoreClass {
 		else
 		{
 			System.out.println("If you want to send the Test result Email then turn on the setting from the config");
-			driver.quit();
+			//driver.quit();
 			
 		}
 		  
@@ -160,6 +162,8 @@ public class CoreClass {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("disable-infobars");
+			
+			
 			driver = new ChromeDriver();
 
 			log.debug("Chrome Driver Launch");
