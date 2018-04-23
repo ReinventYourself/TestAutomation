@@ -2,28 +2,28 @@
 <testng-results skipped="57" failed="0" ignored="4" total="67" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="UnityworksReportTest" duration-ms="175853" started-at="2018-04-20T13:41:11Z" finished-at="2018-04-20T13:44:07Z">
+  <suite name="UnityworksReportTest" duration-ms="183912" started-at="2018-04-21T11:01:12Z" finished-at="2018-04-21T11:04:16Z">
     <groups>
     </groups>
-    <test name="Unityworks" duration-ms="175853" started-at="2018-04-20T13:41:11Z" finished-at="2018-04-20T13:44:07Z">
+    <test name="Unityworks" duration-ms="183912" started-at="2018-04-21T11:01:12Z" finished-at="2018-04-21T11:04:16Z">
       <class name="com.unityworks.testcases.AffinitiveTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="initialize" is-config="true" duration-ms="3526" started-at="2018-04-20T13:41:08Z" finished-at="2018-04-20T13:41:11Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="initialize" is-config="true" duration-ms="3534" started-at="2018-04-21T11:01:08Z" finished-at="2018-04-21T11:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="setExtent" is-config="true" duration-ms="62" started-at="2018-04-20T13:41:11Z" finished-at="2018-04-20T13:41:11Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="setExtent" is-config="true" duration-ms="61" started-at="2018-04-21T11:01:12Z" finished-at="2018-04-21T11:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.CampaignTest@71c3b41]" name="setup" is-config="true" duration-ms="22" started-at="2018-04-20T13:41:11Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-20T13:41:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.CampaignTest@71c3b41]" name="setup" is-config="true" duration-ms="16" started-at="2018-04-21T11:01:12Z" depends-on-methods="com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-21T11:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="setup" is-config="true" duration-ms="1" started-at="2018-04-20T13:41:11Z" depends-on-methods="com.unityworks.testcases.CampaignTest.setup, com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-20T13:41:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="setup" is-config="true" duration-ms="1" started-at="2018-04-21T11:01:12Z" depends-on-methods="com.unityworks.testcases.CampaignTest.setup, com.unityworks.core.CoreClass.setExtent" finished-at="2018-04-21T11:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doubleclickreportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="doubleclickreportTest" duration-ms="52971" started-at="2018-04-20T13:41:11Z" data-provider="DoubleClickReportGetData" finished-at="2018-04-20T13:42:04Z">
+        <test-method status="PASS" signature="doubleclickreportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="doubleclickreportTest" duration-ms="36556" started-at="2018-04-21T11:01:12Z" data-provider="DoubleClickReportGetData" finished-at="2018-04-21T11:01:48Z">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleclickreportTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-20T13:42:04Z" finished-at="2018-04-20T13:42:04Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-21T11:01:48Z" finished-at="2018-04-21T11:01:48Z">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="doubleclickreportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="doubleclickreportTest" duration-ms="27576" started-at="2018-04-20T13:42:04Z" data-provider="DoubleClickReportGetData" finished-at="2018-04-20T13:42:32Z">
+        <test-method status="PASS" signature="doubleclickreportTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="doubleclickreportTest" duration-ms="27372" started-at="2018-04-21T11:01:48Z" data-provider="DoubleClickReportGetData" finished-at="2018-04-21T11:02:16Z">
           <params>
             <param index="0">
               <value>
@@ -216,7 +216,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleclickreportTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:32Z" finished-at="2018-04-20T13:42:32Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:16Z" finished-at="2018-04-21T11:02:16Z">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="27452" started-at="2018-04-20T13:42:32Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="27067" started-at="2018-04-21T11:02:16Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -278,29 +278,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SUCCESS method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -389,7 +367,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -478,7 +456,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -489,7 +467,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SUCCESS method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -578,7 +567,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="2" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -667,7 +656,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -678,7 +667,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -689,7 +678,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -700,7 +689,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -789,7 +778,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -878,7 +867,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -889,7 +878,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -978,7 +978,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -989,7 +989,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1078,7 +1078,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1167,7 +1167,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1256,7 +1256,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1267,7 +1267,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1356,7 +1356,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1367,7 +1367,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1378,7 +1378,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1389,18 +1389,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1489,7 +1478,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1578,7 +1567,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1589,7 +1578,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1600,7 +1589,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1689,7 +1678,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1778,7 +1778,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1789,7 +1789,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1877,7 +1877,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1965,7 +1965,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -1976,29 +1976,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2086,7 +2064,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2097,7 +2075,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2108,7 +2086,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2196,7 +2174,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2207,7 +2185,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2295,7 +2284,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2383,7 +2372,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2471,7 +2460,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2559,95 +2559,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[03/01/2018]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[03/10/2018]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Affinitiv]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[BMW SCP Affinitiv]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//span[text()='Bmw Affinitiv Scp']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[//tbody/tr[last()]/td[5]/b]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Bmw Affinitiv Scp]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[62]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping this exception]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping this exception
-at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2658,7 +2570,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2669,7 +2581,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2757,7 +2669,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2768,7 +2680,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2856,7 +2768,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2867,7 +2779,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -2955,7 +2867,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3043,51 +2955,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3101,32 +2969,32 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Dialogue Direct]]>
+                <![CDATA[Affinitiv]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Honda Airbag]]>
+                <![CDATA[BMW SCP Affinitiv]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//span[text()='Epsilon Honda Airbag']]]>
+                <![CDATA[//span[text()='Bmw Affinitiv Scp']]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+                <![CDATA[//tbody/tr[last()]/td[5]/b]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Epsilon Honda Airbag]]>
+                <![CDATA[Bmw Affinitiv Scp]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[]]>
+                <![CDATA[62]]>
               </value>
             </param>
             <param index="8">
@@ -3175,7 +3043,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3186,7 +3054,40 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3274,95 +3175,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[03/01/2018]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[03/10/2018]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fiat Chrysler Automobiles]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[BMW T3]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//span[text()='Bmw T3']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Bmw T3]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[31]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping this exception]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping this exception
-at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3450,7 +3263,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3538,7 +3351,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3549,7 +3362,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3560,7 +3373,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3571,7 +3384,95 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03/01/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03/10/2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dialogue Direct]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Honda Airbag]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Epsilon Honda Airbag']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Epsilon Honda Airbag]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageViewandReportTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3582,7 +3483,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3670,7 +3571,95 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03/01/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03/10/2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fiat Chrysler Automobiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BMW T3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Bmw T3']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bmw T3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageViewandReportTitle -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3758,7 +3747,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3769,7 +3758,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3857,7 +3846,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -3868,205 +3857,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[03/01/2018]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[03/10/2018]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fiat Chrysler Automobiles]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DBC Compass Compare T2.5]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//span[text()='DBC Compass Compare T2.5']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[DBC Compass Compare T2.5]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping this exception]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping this exception
-at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[03/01/2018]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[03/10/2018]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fiat Chrysler Automobiles]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DBC Heavy Duty Farmers]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//span[text()='DBC Heavy Duty Farmers']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[DBC Heavy Duty Farmers]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping this exception]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping this exception
-at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4154,7 +3945,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4165,7 +3956,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4184,12 +3975,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </param>
             <param index="3">
               <value>
-                <![CDATA[FCA Lease]]>
+                <![CDATA[DBC Compass Compare T2.5]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//span[text()='Fca Lease']]]>
+                <![CDATA[//span[text()='DBC Compass Compare T2.5']]]>
               </value>
             </param>
             <param index="5">
@@ -4199,12 +3990,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </param>
             <param index="6">
               <value>
-                <![CDATA[Fca Lease]]>
+                <![CDATA[DBC Compass Compare T2.5]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[246]]>
+                <![CDATA[3]]>
               </value>
             </param>
             <param index="8">
@@ -4253,7 +4044,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4264,7 +4055,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4275,7 +4066,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4294,12 +4096,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </param>
             <param index="3">
               <value>
-                <![CDATA[GLBC Jeep Lease]]>
+                <![CDATA[DBC Heavy Duty Farmers]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//span[text()='GLBC Jeep Lease']]]>
+                <![CDATA[//span[text()='DBC Heavy Duty Farmers']]]>
               </value>
             </param>
             <param index="5">
@@ -4309,7 +4111,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </param>
             <param index="6">
               <value>
-                <![CDATA[GLBC Jeep Lease]]>
+                <![CDATA[DBC Heavy Duty Farmers]]>
               </value>
             </param>
             <param index="7">
@@ -4363,7 +4165,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4451,7 +4253,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4462,7 +4264,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4473,7 +4275,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4561,7 +4363,95 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03/01/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03/10/2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fiat Chrysler Automobiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FCA Lease]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Fca Lease']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Fca Lease]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[246]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageViewandReportTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4572,7 +4462,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4660,7 +4561,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4679,27 +4580,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Jaguar T3]]>
+                <![CDATA[GLBC Jeep Lease]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[//span[text()='Jaguar T3']]]>
+                <![CDATA[//span[text()='GLBC Jeep Lease']]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Jaguar T3]]>
+                <![CDATA[GLBC Jeep Lease]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[608]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="8">
@@ -4748,18 +4649,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4847,95 +4737,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[03/01/2018]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[03/10/2018]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fiat Chrysler Automobiles]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Mopar SEBC]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//span[text()='Southeast Business Center Mopar']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Southeast Business Center Mopar]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[13]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping this exception]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping this exception
-at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4946,7 +4748,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4957,7 +4759,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -4968,7 +4770,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5056,7 +4869,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5144,7 +4957,95 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03/01/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03/10/2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fiat Chrysler Automobiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jaguar T3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Jaguar T3']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[3]/b]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Jaguar T3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[608]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageViewandReportTitle -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5232,7 +5133,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5243,7 +5144,106 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03/01/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03/10/2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fiat Chrysler Automobiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mopar SEBC]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Southeast Business Center Mopar']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Southeast Business Center Mopar]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageViewandReportTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5331,7 +5331,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5342,7 +5342,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5353,7 +5353,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5364,95 +5364,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[03/01/2018]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[03/10/2018]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Fiat Chrysler Automobiles]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[SEBC T2.5 Alfa Romeo]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[//span[text()='SEBC T2.5 Alfa Romeo']]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[SEBC T2.5 Alfa Romeo]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping this exception]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping this exception
-at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5540,18 +5452,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5639,7 +5540,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="1" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5727,7 +5628,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5738,7 +5639,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5826,7 +5727,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5837,7 +5738,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5848,7 +5749,106 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03/01/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03/10/2018]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fiat Chrysler Automobiles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SEBC T2.5 Alfa Romeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='SEBC T2.5 Alfa Romeo']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[//tbody/tr[last()]/td[2]/b]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[SEBC T2.5 Alfa Romeo]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at com.unityworks.testcases.AffinitiveTest.verifyPageViewandReportTitle(AffinitiveTest.java:148)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageViewandReportTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageViewandReportTitle status=SKIP method=AffinitiveTest.verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="0" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5936,7 +5936,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:42:59Z" finished-at="2018-04-20T13:42:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:02:43Z" finished-at="2018-04-21T11:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -5947,7 +5947,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="26770" started-at="2018-04-20T13:42:59Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:43:26Z">
+        <test-method status="PASS" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="26467" started-at="2018-04-21T11:02:43Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -5998,7 +5998,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="26710" started-at="2018-04-20T13:43:26Z" data-provider="NewReportGetData" finished-at="2018-04-20T13:43:53Z">
+        <test-method status="PASS" signature="verifyPageViewandReportTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="verifyPageViewandReportTitle" duration-ms="26803" started-at="2018-04-21T11:03:09Z" data-provider="NewReportGetData" finished-at="2018-04-21T11:03:36Z">
           <params>
             <param index="0">
               <value>
@@ -6049,7 +6049,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageViewandReportTitle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:43:26Z" finished-at="2018-04-20T13:43:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:03:09Z" finished-at="2018-04-21T11:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -6060,7 +6060,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:43:53Z" finished-at="2018-04-20T13:43:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:03:36Z" finished-at="2018-04-21T11:03:36Z">
           <params>
             <param index="0">
               <value>
@@ -6071,21 +6071,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="endReport" is-config="true" duration-ms="213" started-at="2018-04-20T13:44:07Z" finished-at="2018-04-20T13:44:07Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="endReport" is-config="true" duration-ms="229" started-at="2018-04-21T11:04:15Z" finished-at="2018-04-21T11:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="SendEmail" is-config="true" duration-ms="0" started-at="2018-04-20T13:44:07Z" finished-at="2018-04-20T13:44:07Z">
+        <test-method status="PASS" signature="SendEmail()[pri:0, instance:com.unityworks.testcases.AffinitiveTest@157853da]" name="SendEmail" is-config="true" duration-ms="0" started-at="2018-04-21T11:04:16Z" finished-at="2018-04-21T11:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendEmail -->
       </class> <!-- com.unityworks.testcases.AffinitiveTest -->
       <class name="com.unityworks.testcases.CampaignTest">
-        <test-method status="PASS" signature="ValidateCampaign()[pri:0, instance:com.unityworks.testcases.CampaignTest@71c3b41]" name="ValidateCampaign" duration-ms="14048" started-at="2018-04-20T13:43:53Z" finished-at="2018-04-20T13:44:07Z">
+        <test-method status="PASS" signature="ValidateCampaign()[pri:0, instance:com.unityworks.testcases.CampaignTest@71c3b41]" name="ValidateCampaign" duration-ms="39294" started-at="2018-04-21T11:03:36Z" finished-at="2018-04-21T11:04:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCampaign -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.CampaignTest@71c3b41]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-20T13:44:07Z" finished-at="2018-04-20T13:44:07Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.unityworks.testcases.CampaignTest@71c3b41]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-21T11:04:15Z" finished-at="2018-04-21T11:04:15Z">
           <params>
             <param index="0">
               <value>

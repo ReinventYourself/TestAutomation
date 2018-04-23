@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="180.309" tests="63" errors="0" skipped="57" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="188.491" tests="63" errors="0" skipped="57" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -64,9 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="52.957"/>
-  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="27.576"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.452"/>
+  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="36.556"/>
+  <testcase name="doubleclickreportTest" classname="com.unityworks.testcases.AffinitiveTest" time="27.372"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="27.068"/>
   <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
     <skipped message="Skipping this exception"/>
   </testcase>
@@ -238,7 +238,7 @@
   <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="0">
     <skipped message="Skipping this exception"/>
   </testcase>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.77"/>
-  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.71"/>
-  <testcase name="ValidateCampaign" classname="com.unityworks.testcases.CampaignTest" time="14.048"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.467"/>
+  <testcase name="verifyPageViewandReportTitle" classname="com.unityworks.testcases.AffinitiveTest" time="26.803"/>
+  <testcase name="ValidateCampaign" classname="com.unityworks.testcases.CampaignTest" time="39.294"/>
 </testsuite>
