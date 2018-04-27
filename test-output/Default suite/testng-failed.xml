@@ -3,13 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.unityworks.testcases.TestClass">
+      <class name="com.unityworks.testcases.AffinitiveTest">
         <methods>
+          <include name="initialize"/>
+          <include name="setExtent"/>
+          <include name="doubleclickreportTest" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="ValidateCampaign"/>
-          <include name="setUp"/>
+          <include name="SendEmail"/>
+          <include name="endReport"/>
+          <include name="verifyPageViewandReportTitle"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.unityworks.testcases.TestClass -->
+      </class> <!-- com.unityworks.testcases.AffinitiveTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
