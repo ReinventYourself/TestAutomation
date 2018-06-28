@@ -128,7 +128,7 @@ public class Xls_Reader {
 	
 	
 	// returns the data from a cell
-	public String getCellData(String sheetName,int colNum,int rowNum){
+	public String getCellData(String sheetName, int colNum, int rowNum){
 		try{
 			if(rowNum <=0)
 				return "";

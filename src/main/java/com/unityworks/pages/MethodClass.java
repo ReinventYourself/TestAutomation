@@ -76,7 +76,7 @@ public class MethodClass extends com.unityworks.core.CoreClass {
     @FindBy(xpath = "//select[@class='custom_select select_input']")
     public WebElement custom_select_options; 
     
-    @FindBy(xpath= "//input[@name='apply_mgt_fee' and @id='mgt_yes']")
+   /* @FindBy(xpath= "//input[@name='apply_mgt_fee' and @id='mgt_yes']")
     public WebElement apply_mgt_yes;
     
     @FindBy(xpath = "//input[@name='apply_mgt_fee' and @id='mgt_no']")
@@ -86,7 +86,7 @@ public class MethodClass extends com.unityworks.core.CoreClass {
     public WebElement apply_cc_yes;
     
     @FindBy(xpath = "//input[@name='apply_cc_fee' and @id='ccf_no']")
-    public WebElement apply_cc_No;
+    public WebElement apply_cc_No;*/
     
     @FindBy(xpath = "//input[@name='res_cmp_start_date' and @id='mgt_yes']")
     public WebElement res_cmp_startdate_Yes;
@@ -94,6 +94,12 @@ public class MethodClass extends com.unityworks.core.CoreClass {
     @FindBy(xpath = "//input[@name='res_cmp_start_date' and @id='mgt_no']")
     public WebElement res_cmp_startdate_No;
     
+    @FindBy(xpath= "//input[@name='apply_fee_code' and @id='mgt_yes']")
+    public WebElement Apply_Fee_code_Yes;
+    
+    @FindBy(xpath = "//input[@name='apply_fee_code' and @id='mgt_no']")
+    public WebElement Apply_fee_code_No;
+     
     @FindBy(xpath= "//select[@name= 'report_type']")
     public WebElement ReportType;
     
@@ -217,7 +223,7 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 	
 	}
 	
-	public void SelectApplyCCFee(String value)
+	/*public void SelectApplyCCFee(String value)
 	{
 		if(value.equals("Yes"))
 		apply_cc_yes.click();
@@ -225,10 +231,10 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 		{
 			apply_cc_No.click();
 	    }
-	}
+	}*/
 	
 
-	public void SelectApplyMgtFee(String value)
+	/*public void SelectApplyMgtFee(String value)
 	{
 		if(value.equals("Yes"))
 		apply_mgt_yes.click();
@@ -236,7 +242,16 @@ public class MethodClass extends com.unityworks.core.CoreClass {
 		{
 		  apply_mgt_No.click();
 	    }
+	}*/
+	
+	public void ApplyfeesFromCodes(String value)
+	{
+		if(value.equals("Yes"))
+			Apply_Fee_code_Yes.click();
+		else 
+			Apply_fee_code_No.click();
 	}
+	
 	
 	
 	public void SelectResCMPStartDate(String value)

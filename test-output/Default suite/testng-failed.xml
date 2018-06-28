@@ -7,11 +7,10 @@
         <methods>
           <include name="initialize"/>
           <include name="setExtent"/>
-          <include name="doubleclickreportTest" invocation-numbers="0"/>
+          <include name="doubleclickreportTest" invocation-numbers="1"/>
           <include name="tearDown"/>
           <include name="SendEmail"/>
           <include name="endReport"/>
-          <include name="verifyPageViewandReportTitle"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.unityworks.testcases.AffinitiveTest -->

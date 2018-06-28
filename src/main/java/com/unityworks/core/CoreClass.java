@@ -45,10 +45,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import org.testng.collections.Lists;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.HTMLReporter;
 import com.relevantcodes.extentreports.LogStatus;
 import com.unityworks.config.Configuration;
 import com.unityworks.utils.Util;
@@ -91,6 +93,7 @@ public class CoreClass {
         extent.addSystemInfo("Host Name", "SEZ-10.india.rsystems.com");
 		extent.addSystemInfo("User Name", System.getProperty("user.name"));
 		extent.addSystemInfo("Environment", "prod");
+	
 
 	}
 
@@ -130,24 +133,6 @@ public class CoreClass {
 		
 	}
 	
-
-
-	@AfterSuite
-	public void SendEmail()
-	{
-		if(prop.getProperty("EmailSend").equals("true"))
-		{
-	      Configuration.SendMailSSLWithAttachment();
-		  driver.quit();
-		} 
-		else
-		{
-			System.out.println("If you want to send the Test result Email then turn on the setting from the config");
-			//driver.quit();
-			
-		}
-		  
-    }
 	
 	@BeforeSuite
 	public void initialize() {
@@ -181,4 +166,33 @@ public class CoreClass {
 		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
+	
+	
+	/*@AfterMethod
+	public void closeBrowser()
+	{
+		driver.close();
+		
+	}*/
+	
+
+
+	@AfterSuite
+	public void SendEmail()
+	{
+		if(prop.getProperty("EmailSend").equals("true"))
+		{
+	      Configuration.SendMailSSLWithAttachment();
+		  driver.quit();
+		} 
+		else
+		{
+			System.out.println("If you want to send the Test result Email then turn on the setting from the config");
+			//driver.quit();
+			
+		}
+		  
+    }
+	
+
 }

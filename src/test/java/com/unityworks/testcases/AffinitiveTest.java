@@ -2,15 +2,22 @@ package com.unityworks.testcases;
 
 import static org.testng.Assert.assertEquals;
 
+import java.awt.AWTException;
+import java.awt.Robot;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
@@ -40,9 +47,9 @@ public class AffinitiveTest extends CoreClass {
 		Method = new MethodClass();
 		Load = new PageLoad();
 	    util =  new Util();
-	   
-	    
-	}
+   }
+	
+	
 	
 	/*@Test(dataProvider = "getdata",dataProviderClass =Util.class)
 	public void unityworksReportTest(String Category, String SubCategory, 
@@ -156,9 +163,9 @@ public class AffinitiveTest extends CoreClass {
 	public void doubleclickreportTest(String StartDate, String EndDate, String Category, String SubCategory,
 			String RadioButton, String BCSelect, String ProgramSelect, String CustomSelect, 
 			String ApplyManagementFee, String ApplyContentCreationFee, String RestrictCampaignStartDate, 
-			String TypeDropDown,String ReportTitle, String PageView, 
+			String ApplyFeesfromcodes,String TypeDropDown,String ReportTitle, String PageView, 
 			String ExpectedReportTitle, String ExpectedPageViewCount,
-			String ExecutionStatus ) throws InterruptedException
+			String ExecutionStatus, String TestCase ) throws InterruptedException
 	
 	{
 		
@@ -167,7 +174,6 @@ public class AffinitiveTest extends CoreClass {
 		
 	   if(ExecutionStatus.equalsIgnoreCase("Yes"))
 	   {
-		
 	    Method.stagelogin();
 	    Method.AddScheduleReportBtn.isDisplayed();
 		log.debug("Stage Login Successful");
@@ -183,9 +189,10 @@ public class AffinitiveTest extends CoreClass {
 		Util.delay();
 		Method.SelectRadioBtn(RadioButton);
 		Method.SelectDropDownBasedOnRadiobtn(RadioButton, BCSelect,ProgramSelect, CustomSelect);
-		Method.SelectApplyMgtFee(ApplyManagementFee);
-		Method.SelectApplyCCFee(ApplyContentCreationFee);
+		//Method.SelectApplyMgtFee(ApplyManagementFee);
+		//Method.SelectApplyCCFee(ApplyContentCreationFee);
 		Method.SelectResCMPStartDate(RestrictCampaignStartDate);
+		Method.ApplyfeesFromCodes(ApplyFeesfromcodes);
 		Method.SelectReporttype(TypeDropDown);
 		Method.clickondisplayBtn();
 		util.wait.until(ExpectedConditions

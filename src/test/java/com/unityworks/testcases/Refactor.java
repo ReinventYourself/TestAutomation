@@ -43,9 +43,11 @@ public class Refactor  {
 	   // start the proxy
 	    proxy = new BrowserMobProxyServer();
 	    proxy.start(0);
+      //proxy.blacklistRequests("http://www.google-analytics.com/r/__utm.gif", 404);  
 
 	    //get the Selenium proxy object - org.openqa.selenium.Proxy;
 	    Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
+	     
 
 	    // configure it as a desired capability
 	    DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -62,9 +64,10 @@ public class Refactor  {
 	    		CaptureType.REQUEST_COOKIES, 
 	    		CaptureType.RESPONSE_CONTENT, CaptureType.RESPONSE_BINARY_CONTENT, 
 	    		CaptureType.RESPONSE_HEADERS, CaptureType.RESPONSE_COOKIES);*/
-	   
+		
 	   proxy.enableHarCaptureTypes(CaptureType.REQUEST_CONTENT);
-	    
+	   
+	   
 	    // create a new HAR with the label "Unityworks.com"
 	    proxy.newHar("UnityWorks.com");	 
         
